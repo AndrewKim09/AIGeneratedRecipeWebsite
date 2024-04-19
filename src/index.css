@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+div{
+  overflow: auto;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.recipes{
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  border: 2px solid #000;
+}
+
+.navBarItem{
+  transition: opacity 0.05s ease-in-out;
+}
+
+.loading{
+  background-image: url("./images/loading.gif");
+  background-size: cover;
+  background-position: center;
+}
